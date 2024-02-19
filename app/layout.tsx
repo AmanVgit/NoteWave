@@ -1,4 +1,4 @@
-// import { Toaster } from "sonner";
+import { Toaster } from "sonner";
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 
@@ -47,8 +47,8 @@ export default function RootLayout({
               disableTransitionOnChange
               storageKey="jotion-theme-2"
             >
-              {/* <Toaster position="bottom-center" />
-              <ModalProvider /> */}
+              <Toaster position="bottom-center" />
+              {/* <ModalProvider /> */}
               {children}
             </ThemeProvider>
           {/* </EdgeStoreProvider> */}
